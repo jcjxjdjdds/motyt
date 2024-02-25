@@ -33,12 +33,12 @@ def get_file_id(msg: Message):
                 return obj
 
 @app.on_message(
-    command(["المطور","البوب","امير","مطور السورس","مبرمج السورس"])
+    command(["المطور","مارش","دارك","مطور السورس","مبرمج السورس"])
     & filters.group
   
 )
 async def yas(client, message):
-    usr = await client.get_chat("VIP_ALPOP")
+    usr = await client.get_chat("O7_05")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"– – – – – – – – – – – – – – – – – –\n↯︙𝖣𝖾𝗏 ↬ ⦗ {name} ⦘\n↯︙𝖴𝗌𝖤𝗋 ↬ ⦗ @{usr.username} ⦘\n↯︙𝖨𝖣 ↬ ⦗ {usr.id} ⦘\n↯︙𝖡𝗂𝖮 ↬ ⦗ {usr.bio} ⦘\n– – – – – – – – – – – – – – – – – –",  
@@ -53,12 +53,12 @@ async def yas(client, message):
     )
     
 @app.on_message(
-    command(["المطور مارو","مارو","المبرمج"])
+    command(["المطور دراك","دارك","المبرمج"])
     & filters.group
   
 )
 async def yas(client, message):
-    usr = await client.get_chat("j_s_9")
+    usr = await client.get_chat("O7_05")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"– – – – – – – – – – – – – – – – – –\n↯︙𝖣𝖾𝗏 ↬ ⦗ {name} ⦘\n↯︙𝖴𝗌𝖤𝗋 ↬ ⦗ @{usr.username} ⦘\n↯︙𝖨𝖣 ↬ ⦗ {usr.id} ⦘\n↯︙𝖡𝗂𝖮 ↬ ⦗ {usr.bio} ⦘\n– – – – – – – – – – – – – – – – – –",  
@@ -78,19 +78,19 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f698f60484b7aef0d6f29.jpg",
-        caption=f"""↯︙اهلا بك عزيزي {message.from_user.mention}\n↯︙مطورين سورس البوب ميوزك""",
+        photo=f"https://telegra.ph/file/6ccfb45597628a287bbc8.jpg",
+        caption=f"""↯︙اهلا بك عزيزي {message.from_user.mention}\n↯︙مطورين سورس دارك ميوزك""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "‹ : 𝗗𝗘𝗩 𝗔𝗟𝗣𝗢𝗣 : ›", url=f"https://t.me/VIP_ALPOP"), 
+                        "‹ : 𝗗𝗘𝗩 𝐷𝐴𝑅𝐾 : ›", url=f"https://t.me/T4_Mohamed"), 
                  ],[
                     InlineKeyboardButton(
-                        "‹ : 𝗗𝗘𝗩 𝗠𝗔𝗥𝗢² : ›", url=f"https://t.me/j_s_9"),
+                        "‹ :مـًٌٍّ̨̥̬̩ـمـ༈ۖ҉ـآرٍشـًٌٍّ̨̥̬̩ـمـًٌٍّ̨̥̬̩ـيلُـِـِِـِِِؤ❾ فـ༈ۖ҉ـء : ›", url=f"https://t.me/Marshmello_x_x"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ : 𝗦𝗢𝗨𝗥𝗖𝗘 𝗔𝗟𝗣𝗢𝗣 : ›", url=f"https://t.me/SOURCE_ALPOP"),
+                        "‹ : 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 : ›", url=f"https://t.me/S_MA4"),
                 ],
 
             ]
@@ -116,7 +116,7 @@ async def huhh(client, message):
        [
            [
                InlineKeyboardButton(
-                   "‹ : 𝖬𝖺𝖳𝗋𝗂x 𝖳𝖾𝖠𝗆 : ›", url=f"https://t.me/XMATTMX"),
+                   "‹ : 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 : ›", url=f"https://t.me/S_MA4"),
            ],
        ]
     ),
