@@ -78,7 +78,7 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/6ccfb45597628a287bbc8.jpg",
+        photo=f"https://telegra.ph/file/7a4ea9510adbff3564608.jpg",
         caption=f"""↯︙اهلا بك عزيزي {message.from_user.mention}\n↯︙مطورين سورس دارك ميوزك""",
         reply_markup=InlineKeyboardMarkup(
             [
