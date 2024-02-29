@@ -19,8 +19,8 @@
       },
       "OWNER_ID": {
         "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
-        "value": "",
-        "required": true
+        "value": "2095495680",
+        "required": false
       },
       "STRING_SESSION": {
         "description": "⦗ V2 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
@@ -39,8 +39,8 @@
       },
       "LOGGER_ID": {
         "description": "ايـدي قروب السـجل",
-        "value": "-100",
-        "required": true
+        "value": "1001871388107",
+        "required": false
       }
     },
     "buildpacks": [
