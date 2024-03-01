@@ -71,6 +71,7 @@ async def yas(client, message):
             ]
         ),
     )
+    
  @app.on_message(
     command(["تونز"])
     & filters.group
