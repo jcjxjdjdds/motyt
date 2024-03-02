@@ -177,12 +177,3 @@ async def Bio(_, message):
 		bio = d.bio
 		await message.reply_text(bio)
 
-@app.on_message(filters.regex("قول"))
-async def echo(_, msg):
- text = msg.text.split(None, 1)[1]
- await msg.reply(text)
-
-'''
-Programmed by : 🎖️ @RNRYR
-   Channel -› • @Matrixthon
-'''
