@@ -39,7 +39,7 @@
       },
       "LOGGER_ID": {
         "description": "ايـدي قروب السـجل",
-        "value": "1001871388107",
+        "value": "-1001871388107",
         "required": false
       }
     },
